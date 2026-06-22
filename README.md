@@ -1,0 +1,4 @@
+- Nombre completo:Yocaira Mercedes Acosta 
+- Matrícula: 25-MISN-2-007
+- Asignatura: Programación Orientada a Objetos
+- Proyecto: Sistema de Registro de Calificaciones 2
