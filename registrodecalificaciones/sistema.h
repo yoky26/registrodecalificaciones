@@ -1,5 +1,5 @@
-#ifndef SISTEMA_H
-#define SISTEMA_H
+#ifndef sistema.h
+#define sistema.h
 
 #include "Estudiante.h"
 #include "Profesor.h"
