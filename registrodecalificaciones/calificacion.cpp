@@ -1,4 +1,6 @@
 #include "Calificacion.h"
+#include <string>
+#include <vector>
 
 Calificacion::Calificacion() : nota(0.0f) {}
 
@@ -44,10 +46,7 @@ std::string Calificacion::serializar() const {
            std::to_string(nota);
 }
 
-Calificacion Calificacion::deserializar(const std::string& linea,
-                                    const std::vector<Estudiante>& listaEst,
-                                    const std::vector<Profesor>& listaProf,
-                                    const std::vector<Materia>& listaMat) {
+Calificacion Calificacion::deserializar(const std::string& linea, const std::vector<Estudiante>& listaEst, const std::vector<Profesor>& listaProf, const std::vector<Materia>& listaMat) {
     size_t pos1 = linea.find("|");
     size_t pos2 = linea.find("|", pos1 + 1);
     size_t pos3 = linea.find("|", pos2 + 1);
