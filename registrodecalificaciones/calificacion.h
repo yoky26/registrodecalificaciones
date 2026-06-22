@@ -29,10 +29,7 @@ public:
     float getNota() const;
 
     std::string serializar() const;
-    static Calificacion deserializar(const std::string& linea,
-                                    const std::vector<Estudiante>& listaEst,
-                                    const std::vector<Profesor>& listaProf,
-                                    const std::vector<Materia>& listaMat);
+    static Calificacion deserializar(const std::string& linea, const std::vector<Estudiante>& listaEst, const std::vector<Profesor>& listaProf, const std::vector<Materia>& listaMat);
 };
 
 #endif
