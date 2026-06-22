@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <cctype>
 #include <limits>
+#include <string>
 
 Sistema::Sistema() {
     cargarDatos();
